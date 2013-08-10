@@ -1,0 +1,143 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/nba/leaders//points.json?limit=15&qualified=true&season_type=regular
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Xmlstats-Api-Method:
+      - nba leaders
+      Xmlstats-Api-Exec-Time:
+      - '3'
+      Xmlstats-Api-Limit:
+      - ''
+      Etag:
+      - '1894434277'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '7108'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 10 Aug 2013 22:19:52 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "[ {\n  \"last_name\" : \"Anthony\",\n  \"first_name\" : \"Carmelo\",\n
+        \ \"display_name\" : \"Carmelo Anthony\",\n  \"rank\" : 1,\n  \"value\" :
+        28.66,\n  \"team\" : {\n    \"team_id\" : \"new-york-knicks\",\n    \"abbreviation\"
+        : \"NY\",\n    \"active\" : true,\n    \"first_name\" : \"New York\",\n    \"last_name\"
+        : \"Knicks\",\n    \"conference\" : \"East\",\n    \"division\" : \"Atlantic\",\n
+        \   \"site_name\" : \"Madison Square Garden\",\n    \"city\" : \"New York\",\n
+        \   \"state\" : \"New York\",\n    \"full_name\" : \"New York Knicks\"\n  }\n},
+        {\n  \"last_name\" : \"Durant\",\n  \"first_name\" : \"Kevin\",\n  \"display_name\"
+        : \"Kevin Durant\",\n  \"rank\" : 2,\n  \"value\" : 28.15,\n  \"team\" : {\n
+        \   \"team_id\" : \"oklahoma-city-thunder\",\n    \"abbreviation\" : \"OKC\",\n
+        \   \"active\" : true,\n    \"first_name\" : \"Oklahoma City\",\n    \"last_name\"
+        : \"Thunder\",\n    \"conference\" : \"West\",\n    \"division\" : \"Northwest\",\n
+        \   \"site_name\" : \"Chesapeake Energy Arena\",\n    \"city\" : \"Oklahoma
+        City\",\n    \"state\" : \"Oklahoma\",\n    \"full_name\" : \"Oklahoma City
+        Thunder\"\n  }\n}, {\n  \"last_name\" : \"Bryant\",\n  \"first_name\" : \"Kobe\",\n
+        \ \"display_name\" : \"Kobe Bryant\",\n  \"rank\" : 3,\n  \"value\" : 27.35,\n
+        \ \"team\" : {\n    \"team_id\" : \"los-angeles-lakers\",\n    \"abbreviation\"
+        : \"LAL\",\n    \"active\" : true,\n    \"first_name\" : \"Los Angeles\",\n
+        \   \"last_name\" : \"Lakers\",\n    \"conference\" : \"West\",\n    \"division\"
+        : \"Pacific\",\n    \"site_name\" : \"Staples Center\",\n    \"city\" : \"Los
+        Angeles\",\n    \"state\" : \"California\",\n    \"full_name\" : \"Los Angeles
+        Lakers\"\n  }\n}, {\n  \"last_name\" : \"James\",\n  \"first_name\" : \"LeBron\",\n
+        \ \"display_name\" : \"LeBron James\",\n  \"rank\" : 4,\n  \"value\" : 26.79,\n
+        \ \"team\" : {\n    \"team_id\" : \"miami-heat\",\n    \"abbreviation\" :
+        \"MIA\",\n    \"active\" : true,\n    \"first_name\" : \"Miami\",\n    \"last_name\"
+        : \"Heat\",\n    \"conference\" : \"East\",\n    \"division\" : \"Southeast\",\n
+        \   \"site_name\" : \"AmericanAirlines Arena\",\n    \"city\" : \"Miami\",\n
+        \   \"state\" : \"Florida\",\n    \"full_name\" : \"Miami Heat\"\n  }\n},
+        {\n  \"last_name\" : \"Harden\",\n  \"first_name\" : \"James\",\n  \"display_name\"
+        : \"James Harden\",\n  \"rank\" : 5,\n  \"value\" : 25.94,\n  \"team\" : {\n
+        \   \"team_id\" : \"houston-rockets\",\n    \"abbreviation\" : \"HOU\",\n
+        \   \"active\" : true,\n    \"first_name\" : \"Houston\",\n    \"last_name\"
+        : \"Rockets\",\n    \"conference\" : \"West\",\n    \"division\" : \"Southwest\",\n
+        \   \"site_name\" : \"Toyota Center\",\n    \"city\" : \"Houston\",\n    \"state\"
+        : \"Texas\",\n    \"full_name\" : \"Houston Rockets\"\n  }\n}, {\n  \"last_name\"
+        : \"Westbrook\",\n  \"first_name\" : \"Russell\",\n  \"display_name\" : \"Russell
+        Westbrook\",\n  \"rank\" : 6,\n  \"value\" : 23.21,\n  \"team\" : {\n    \"team_id\"
+        : \"oklahoma-city-thunder\",\n    \"abbreviation\" : \"OKC\",\n    \"active\"
+        : true,\n    \"first_name\" : \"Oklahoma City\",\n    \"last_name\" : \"Thunder\",\n
+        \   \"conference\" : \"West\",\n    \"division\" : \"Northwest\",\n    \"site_name\"
+        : \"Chesapeake Energy Arena\",\n    \"city\" : \"Oklahoma City\",\n    \"state\"
+        : \"Oklahoma\",\n    \"full_name\" : \"Oklahoma City Thunder\"\n  }\n}, {\n
+        \ \"last_name\" : \"Curry\",\n  \"first_name\" : \"Wardell\",\n  \"display_name\"
+        : \"Stephen Curry\",\n  \"rank\" : 7,\n  \"value\" : 22.9,\n  \"team\" : {\n
+        \   \"team_id\" : \"golden-state-warriors\",\n    \"abbreviation\" : \"GS\",\n
+        \   \"active\" : true,\n    \"first_name\" : \"Golden State\",\n    \"last_name\"
+        : \"Warriors\",\n    \"conference\" : \"West\",\n    \"division\" : \"Pacific\",\n
+        \   \"site_name\" : \"Oracle Arena\",\n    \"city\" : \"Oakland\",\n    \"state\"
+        : \"California\",\n    \"full_name\" : \"Golden State Warriors\"\n  }\n},
+        {\n  \"last_name\" : \"Wade\",\n  \"first_name\" : \"Dwyane\",\n  \"display_name\"
+        : \"Dwyane Wade\",\n  \"rank\" : 8,\n  \"value\" : 21.2,\n  \"team\" : {\n
+        \   \"team_id\" : \"miami-heat\",\n    \"abbreviation\" : \"MIA\",\n    \"active\"
+        : true,\n    \"first_name\" : \"Miami\",\n    \"last_name\" : \"Heat\",\n
+        \   \"conference\" : \"East\",\n    \"division\" : \"Southeast\",\n    \"site_name\"
+        : \"AmericanAirlines Arena\",\n    \"city\" : \"Miami\",\n    \"state\" :
+        \"Florida\",\n    \"full_name\" : \"Miami Heat\"\n  }\n}, {\n  \"last_name\"
+        : \"Aldridge\",\n  \"first_name\" : \"LaMarcus\",\n  \"display_name\" : \"LaMarcus
+        Aldridge\",\n  \"rank\" : 9,\n  \"value\" : 21.05,\n  \"team\" : {\n    \"team_id\"
+        : \"portland-trail-blazers\",\n    \"abbreviation\" : \"POR\",\n    \"active\"
+        : true,\n    \"first_name\" : \"Portland\",\n    \"last_name\" : \"Trail Blazers\",\n
+        \   \"conference\" : \"West\",\n    \"division\" : \"Northwest\",\n    \"site_name\"
+        : \"Rose Garden\",\n    \"city\" : \"Portland\",\n    \"state\" : \"Oregon\",\n
+        \   \"full_name\" : \"Portland Trail Blazers\"\n  }\n}, {\n  \"last_name\"
+        : \"Lopez\",\n  \"first_name\" : \"Brook\",\n  \"display_name\" : \"Brook
+        Lopez\",\n  \"rank\" : 10,\n  \"value\" : 19.42,\n  \"team\" : {\n    \"team_id\"
+        : \"brooklyn-nets\",\n    \"abbreviation\" : \"BKN\",\n    \"active\" : true,\n
+        \   \"first_name\" : \"Brooklyn\",\n    \"last_name\" : \"Nets\",\n    \"conference\"
+        : \"East\",\n    \"division\" : \"Atlantic\",\n    \"site_name\" : \"Barclays
+        Center\",\n    \"city\" : \"Brooklyn\",\n    \"state\" : \"New York\",\n    \"full_name\"
+        : \"Brooklyn Nets\"\n  }\n}, {\n  \"last_name\" : \"Ellis\",\n  \"first_name\"
+        : \"Monta\",\n  \"display_name\" : \"Monta Ellis\",\n  \"rank\" : 11,\n  \"value\"
+        : 19.23,\n  \"team\" : {\n    \"team_id\" : \"milwaukee-bucks\",\n    \"abbreviation\"
+        : \"MIL\",\n    \"active\" : true,\n    \"first_name\" : \"Milwaukee\",\n
+        \   \"last_name\" : \"Bucks\",\n    \"conference\" : \"East\",\n    \"division\"
+        : \"Central\",\n    \"site_name\" : \"BMO Harris Bradley Center\",\n    \"city\"
+        : \"Milwaukee\",\n    \"state\" : \"Wisconsin\",\n    \"full_name\" : \"Milwaukee
+        Bucks\"\n  }\n}, {\n  \"last_name\" : \"Lillard\",\n  \"first_name\" : \"Damian\",\n
+        \ \"display_name\" : \"Damian Lillard\",\n  \"rank\" : 12,\n  \"value\" :
+        19.07,\n  \"team\" : {\n    \"team_id\" : \"portland-trail-blazers\",\n    \"abbreviation\"
+        : \"POR\",\n    \"active\" : true,\n    \"first_name\" : \"Portland\",\n    \"last_name\"
+        : \"Trail Blazers\",\n    \"conference\" : \"West\",\n    \"division\" : \"Northwest\",\n
+        \   \"site_name\" : \"Rose Garden\",\n    \"city\" : \"Portland\",\n    \"state\"
+        : \"Oregon\",\n    \"full_name\" : \"Portland Trail Blazers\"\n  }\n}, {\n
+        \ \"last_name\" : \"Williams\",\n  \"first_name\" : \"Deron\",\n  \"display_name\"
+        : \"Deron Williams\",\n  \"rank\" : 13,\n  \"value\" : 18.92,\n  \"team\"
+        : {\n    \"team_id\" : \"brooklyn-nets\",\n    \"abbreviation\" : \"BKN\",\n
+        \   \"active\" : true,\n    \"first_name\" : \"Brooklyn\",\n    \"last_name\"
+        : \"Nets\",\n    \"conference\" : \"East\",\n    \"division\" : \"Atlantic\",\n
+        \   \"site_name\" : \"Barclays Center\",\n    \"city\" : \"Brooklyn\",\n    \"state\"
+        : \"New York\",\n    \"full_name\" : \"Brooklyn Nets\"\n  }\n}, {\n  \"last_name\"
+        : \"Pierce\",\n  \"first_name\" : \"Paul\",\n  \"display_name\" : \"Paul Pierce\",\n
+        \ \"rank\" : 14,\n  \"value\" : 18.57,\n  \"team\" : {\n    \"team_id\" :
+        \"boston-celtics\",\n    \"abbreviation\" : \"BOS\",\n    \"active\" : true,\n
+        \   \"first_name\" : \"Boston\",\n    \"last_name\" : \"Celtics\",\n    \"conference\"
+        : \"East\",\n    \"division\" : \"Atlantic\",\n    \"site_name\" : \"TD Garden\",\n
+        \   \"city\" : \"Boston\",\n    \"state\" : \"Massachusetts\",\n    \"full_name\"
+        : \"Boston Celtics\"\n  }\n}, {\n  \"last_name\" : \"Lee\",\n  \"first_name\"
+        : \"David\",\n  \"display_name\" : \"David Lee\",\n  \"rank\" : 15,\n  \"value\"
+        : 18.47,\n  \"team\" : {\n    \"team_id\" : \"golden-state-warriors\",\n    \"abbreviation\"
+        : \"GS\",\n    \"active\" : true,\n    \"first_name\" : \"Golden State\",\n
+        \   \"last_name\" : \"Warriors\",\n    \"conference\" : \"West\",\n    \"division\"
+        : \"Pacific\",\n    \"site_name\" : \"Oracle Arena\",\n    \"city\" : \"Oakland\",\n
+        \   \"state\" : \"California\",\n    \"full_name\" : \"Golden State Warriors\"\n
+        \ }\n} ]"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:19:53 GMT
+recorded_with: VCR 2.5.0

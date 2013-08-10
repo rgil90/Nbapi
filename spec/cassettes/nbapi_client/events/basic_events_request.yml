@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/events.json?date=20130131&sport=nba
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Xmlstats-Api-Method:
+      - events
+      Xmlstats-Api-Exec-Time:
+      - '12'
+      Xmlstats-Api-Limit:
+      - ''
+      Etag:
+      - '344146209'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2386'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 10 Aug 2013 22:19:52 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"events_date\" : \"2013-01-31T00:00:00-05:00\",\n  \"event\"
+        : [ {\n    \"event_id\" : \"20130131-memphis-grizzlies-at-oklahoma-city-thunder\",\n
+        \   \"event_status\" : \"completed\",\n    \"sport\" : \"NBA\",\n    \"start_date_time\"
+        : \"2013-01-31T20:00:00-05:00\",\n    \"season_type\" : \"regular\",\n    \"away_team\"
+        : {\n      \"team_id\" : \"memphis-grizzlies\",\n      \"abbreviation\" :
+        \"MEM\",\n      \"active\" : true,\n      \"first_name\" : \"Memphis\",\n
+        \     \"last_name\" : \"Grizzlies\",\n      \"conference\" : \"West\",\n      \"division\"
+        : \"Southwest\",\n      \"site_name\" : \"FedEx Forum\",\n      \"city\" :
+        \"Memphis\",\n      \"state\" : \"Tennessee\",\n      \"full_name\" : \"Memphis
+        Grizzlies\"\n    },\n    \"home_team\" : {\n      \"team_id\" : \"oklahoma-city-thunder\",\n
+        \     \"abbreviation\" : \"OKC\",\n      \"active\" : true,\n      \"first_name\"
+        : \"Oklahoma City\",\n      \"last_name\" : \"Thunder\",\n      \"conference\"
+        : \"West\",\n      \"division\" : \"Northwest\",\n      \"site_name\" : \"Chesapeake
+        Energy Arena\",\n      \"city\" : \"Oklahoma City\",\n      \"state\" : \"Oklahoma\",\n
+        \     \"full_name\" : \"Oklahoma City Thunder\"\n    },\n    \"site\" : {\n
+        \     \"capacity\" : 19599,\n      \"surface\" : \"Hardwood\",\n      \"name\"
+        : \"Chesapeake Energy Arena\",\n      \"city\" : \"Oklahoma City\",\n      \"state\"
+        : \"Oklahoma\"\n    }\n  }, {\n    \"event_id\" : \"20130131-dallas-mavericks-at-golden-state-warriors\",\n
+        \   \"event_status\" : \"completed\",\n    \"sport\" : \"NBA\",\n    \"start_date_time\"
+        : \"2013-01-31T22:30:00-05:00\",\n    \"season_type\" : \"regular\",\n    \"away_team\"
+        : {\n      \"team_id\" : \"dallas-mavericks\",\n      \"abbreviation\" : \"DAL\",\n
+        \     \"active\" : true,\n      \"first_name\" : \"Dallas\",\n      \"last_name\"
+        : \"Mavericks\",\n      \"conference\" : \"West\",\n      \"division\" : \"Southwest\",\n
+        \     \"site_name\" : \"American Airlines Center\",\n      \"city\" : \"Dallas\",\n
+        \     \"state\" : \"Texas\",\n      \"full_name\" : \"Dallas Mavericks\"\n
+        \   },\n    \"home_team\" : {\n      \"team_id\" : \"golden-state-warriors\",\n
+        \     \"abbreviation\" : \"GS\",\n      \"active\" : true,\n      \"first_name\"
+        : \"Golden State\",\n      \"last_name\" : \"Warriors\",\n      \"conference\"
+        : \"West\",\n      \"division\" : \"Pacific\",\n      \"site_name\" : \"Oracle
+        Arena\",\n      \"city\" : \"Oakland\",\n      \"state\" : \"California\",\n
+        \     \"full_name\" : \"Golden State Warriors\"\n    },\n    \"site\" : {\n
+        \     \"capacity\" : 19596,\n      \"surface\" : \"Hardwood\",\n      \"name\"
+        : \"Oracle Arena\",\n      \"city\" : \"Oakland\",\n      \"state\" : \"California\"\n
+        \   }\n  } ]\n}"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:19:52 GMT
+recorded_with: VCR 2.5.0

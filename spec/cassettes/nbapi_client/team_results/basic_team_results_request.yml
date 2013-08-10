@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/nba/team//oklahoma-city-thunder.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - JSESSIONID=D3B794E53A50F66BBC9F65DACBB20860; Path=/; Secure; HttpOnly
+      Xmlstats-Api-Method:
+      - team
+      Xmlstats-Api-Exec-Time:
+      - '0'
+      Xmlstats-Api-Limit:
+      - ''
+      Etag:
+      - '1100069064'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '336'
+      Date:
+      - Sat, 10 Aug 2013 22:19:53 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"team_id\" : \"oklahoma-city-thunder\",\n  \"abbreviation\"
+        : \"OKC\",\n  \"active\" : true,\n  \"first_name\" : \"Oklahoma City\",\n
+        \ \"last_name\" : \"Thunder\",\n  \"conference\" : \"West\",\n  \"division\"
+        : \"Northwest\",\n  \"site_name\" : \"Chesapeake Energy Arena\",\n  \"city\"
+        : \"Oklahoma City\",\n  \"state\" : \"Oklahoma\",\n  \"full_name\" : \"Oklahoma
+        City Thunder\"\n}"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:19:53 GMT
+recorded_with: VCR 2.5.0

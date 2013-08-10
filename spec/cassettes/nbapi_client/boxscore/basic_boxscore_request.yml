@@ -1,0 +1,304 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/nba/boxscore//20120621-oklahoma-city-thunder-at-miami-heat.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Xmlstats-Api-Method:
+      - nba box score
+      Xmlstats-Api-Exec-Time:
+      - '58'
+      Xmlstats-Api-Limit:
+      - ''
+      Etag:
+      - '341031034'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '19305'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 10 Aug 2013 22:19:52 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"away_team\" : {\n    \"team_id\" : \"oklahoma-city-thunder\",\n
+        \   \"abbreviation\" : \"OKC\",\n    \"active\" : true,\n    \"first_name\"
+        : \"Oklahoma City\",\n    \"last_name\" : \"Thunder\",\n    \"conference\"
+        : \"West\",\n    \"division\" : \"Northwest\",\n    \"site_name\" : \"Chesapeake
+        Energy Arena\",\n    \"city\" : \"Oklahoma City\",\n    \"state\" : \"Oklahoma\",\n
+        \   \"full_name\" : \"Oklahoma City Thunder\"\n  },\n  \"home_team\" : {\n
+        \   \"team_id\" : \"miami-heat\",\n    \"abbreviation\" : \"MIA\",\n    \"active\"
+        : true,\n    \"first_name\" : \"Miami\",\n    \"last_name\" : \"Heat\",\n
+        \   \"conference\" : \"East\",\n    \"division\" : \"Southeast\",\n    \"site_name\"
+        : \"AmericanAirlines Arena\",\n    \"city\" : \"Miami\",\n    \"state\" :
+        \"Florida\",\n    \"full_name\" : \"Miami Heat\"\n  },\n  \"away_period_scores\"
+        : [ 26, 23, 22, 35 ],\n  \"home_period_scores\" : [ 31, 28, 36, 26 ],\n  \"away_stats\"
+        : [ {\n    \"last_name\" : \"Durant\",\n    \"first_name\" : \"Kevin\",\n
+        \   \"display_name\" : \"Kevin Durant\",\n    \"position\" : \"SF\",\n    \"minutes\"
+        : 43,\n    \"points\" : 32,\n    \"assists\" : 3,\n    \"turnovers\" : 7,\n
+        \   \"steals\" : 2,\n    \"blocks\" : 1,\n    \"field_goals_attempted\" :
+        24,\n    \"field_goals_made\" : 13,\n    \"three_point_field_goals_attempted\"
+        : 6,\n    \"three_point_field_goals_made\" : 3,\n    \"free_throws_attempted\"
+        : 3,\n    \"free_throws_made\" : 3,\n    \"defensive_rebounds\" : 9,\n    \"offensive_rebounds\"
+        : 2,\n    \"personal_fouls\" : 5,\n    \"team_abbreviation\" : \"OKC\",\n
+        \   \"is_starter\" : true,\n    \"free_throw_percentage\" : 1.0,\n    \"field_goal_percentage\"
+        : 0.542,\n    \"three_point_percentage\" : 0.5\n  }, {\n    \"last_name\"
+        : \"Westbrook\",\n    \"first_name\" : \"Russell\",\n    \"display_name\"
+        : \"Russell Westbrook\",\n    \"position\" : \"PG\",\n    \"minutes\" : 43,\n
+        \   \"points\" : 19,\n    \"assists\" : 6,\n    \"turnovers\" : 2,\n    \"steals\"
+        : 2,\n    \"blocks\" : 0,\n    \"field_goals_attempted\" : 20,\n    \"field_goals_made\"
+        : 4,\n    \"three_point_field_goals_attempted\" : 5,\n    \"three_point_field_goals_made\"
+        : 0,\n    \"free_throws_attempted\" : 13,\n    \"free_throws_made\" : 11,\n
+        \   \"defensive_rebounds\" : 4,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 3,\n    \"team_abbreviation\" : \"OKC\",\n    \"is_starter\" : true,\n    \"free_throw_percentage\"
+        : 0.846,\n    \"field_goal_percentage\" : 0.2,\n    \"three_point_percentage\"
+        : 0.0\n  }, {\n    \"last_name\" : \"Ibaka\",\n    \"first_name\" : \"Serge\",\n
+        \   \"display_name\" : \"Serge Ibaka\",\n    \"position\" : \"PF\",\n    \"minutes\"
+        : 26,\n    \"points\" : 9,\n    \"assists\" : 0,\n    \"turnovers\" : 0,\n
+        \   \"steals\" : 0,\n    \"blocks\" : 2,\n    \"field_goals_attempted\" :
+        9,\n    \"field_goals_made\" : 3,\n    \"three_point_field_goals_attempted\"
+        : 0,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 4,\n    \"free_throws_made\" : 3,\n    \"defensive_rebounds\" : 0,\n    \"offensive_rebounds\"
+        : 4,\n    \"personal_fouls\" : 3,\n    \"team_abbreviation\" : \"OKC\",\n
+        \   \"is_starter\" : true,\n    \"free_throw_percentage\" : 0.75,\n    \"field_goal_percentage\"
+        : 0.333,\n    \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\"
+        : \"Perkins\",\n    \"first_name\" : \"Kendrick\",\n    \"display_name\" :
+        \"Kendrick Perkins\",\n    \"position\" : \"C\",\n    \"minutes\" : 20,\n
+        \   \"points\" : 2,\n    \"assists\" : 0,\n    \"turnovers\" : 1,\n    \"steals\"
+        : 1,\n    \"blocks\" : 0,\n    \"field_goals_attempted\" : 4,\n    \"field_goals_made\"
+        : 1,\n    \"three_point_field_goals_attempted\" : 0,\n    \"three_point_field_goals_made\"
+        : 0,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 4,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 5,\n    \"team_abbreviation\" : \"OKC\",\n    \"is_starter\" : true,\n    \"free_throw_percentage\"
+        : 0.0,\n    \"field_goal_percentage\" : 0.25,\n    \"three_point_percentage\"
+        : 0.0\n  }, {\n    \"last_name\" : \"Sefolosha\",\n    \"first_name\" : \"Thabo\",\n
+        \   \"display_name\" : \"Thabo Sefolosha\",\n    \"position\" : \"SF\",\n
+        \   \"minutes\" : 9,\n    \"points\" : 0,\n    \"assists\" : 0,\n    \"turnovers\"
+        : 0,\n    \"steals\" : 0,\n    \"blocks\" : 0,\n    \"field_goals_attempted\"
+        : 2,\n    \"field_goals_made\" : 0,\n    \"three_point_field_goals_attempted\"
+        : 1,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 0,\n    \"free_throws_made\" : 0,\n    \"defensive_rebounds\" : 0,\n    \"offensive_rebounds\"
+        : 0,\n    \"personal_fouls\" : 2,\n    \"team_abbreviation\" : \"OKC\",\n
+        \   \"is_starter\" : true,\n    \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\"
+        : 0.0,\n    \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" :
+        \"Harden\",\n    \"first_name\" : \"James\",\n    \"display_name\" : \"James
+        Harden\",\n    \"position\" : \"SG\",\n    \"minutes\" : 36,\n    \"points\"
+        : 19,\n    \"assists\" : 5,\n    \"turnovers\" : 3,\n    \"steals\" : 2,\n
+        \   \"blocks\" : 0,\n    \"field_goals_attempted\" : 11,\n    \"field_goals_made\"
+        : 5,\n    \"three_point_field_goals_attempted\" : 8,\n    \"three_point_field_goals_made\"
+        : 3,\n    \"free_throws_attempted\" : 6,\n    \"free_throws_made\" : 6,\n
+        \   \"defensive_rebounds\" : 3,\n    \"offensive_rebounds\" : 1,\n    \"personal_fouls\"
+        : 2,\n    \"team_abbreviation\" : \"OKC\",\n    \"is_starter\" : false,\n
+        \   \"free_throw_percentage\" : 1.0,\n    \"field_goal_percentage\" : 0.455,\n
+        \   \"three_point_percentage\" : 0.375\n  }, {\n    \"last_name\" : \"Fisher\",\n
+        \   \"first_name\" : \"Derek\",\n    \"display_name\" : \"Derek Fisher\",\n
+        \   \"position\" : \"PG\",\n    \"minutes\" : 29,\n    \"points\" : 11,\n
+        \   \"assists\" : 3,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n    \"blocks\"
+        : 0,\n    \"field_goals_attempted\" : 7,\n    \"field_goals_made\" : 4,\n
+        \   \"three_point_field_goals_attempted\" : 6,\n    \"three_point_field_goals_made\"
+        : 3,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 3,\n    \"offensive_rebounds\" : 1,\n    \"personal_fouls\"
+        : 4,\n    \"team_abbreviation\" : \"OKC\",\n    \"is_starter\" : false,\n
+        \   \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\" : 0.571,\n
+        \   \"three_point_percentage\" : 0.5\n  }, {\n    \"last_name\" : \"Collison\",\n
+        \   \"first_name\" : \"Nick\",\n    \"display_name\" : \"Nick Collison\",\n
+        \   \"position\" : \"PF\",\n    \"minutes\" : 17,\n    \"points\" : 2,\n    \"assists\"
+        : 1,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n    \"blocks\" : 0,\n    \"field_goals_attempted\"
+        : 3,\n    \"field_goals_made\" : 1,\n    \"three_point_field_goals_attempted\"
+        : 0,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 0,\n    \"free_throws_made\" : 0,\n    \"defensive_rebounds\" : 2,\n    \"offensive_rebounds\"
+        : 2,\n    \"personal_fouls\" : 3,\n    \"team_abbreviation\" : \"OKC\",\n
+        \   \"is_starter\" : false,\n    \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\"
+        : 0.333,\n    \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\"
+        : \"Cook\",\n    \"first_name\" : \"Daequan\",\n    \"display_name\" : \"Daequan
+        Cook\",\n    \"position\" : \"SG\",\n    \"minutes\" : 5,\n    \"points\"
+        : 2,\n    \"assists\" : 1,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n
+        \   \"blocks\" : 0,\n    \"field_goals_attempted\" : 2,\n    \"field_goals_made\"
+        : 1,\n    \"three_point_field_goals_attempted\" : 0,\n    \"three_point_field_goals_made\"
+        : 0,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 0,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 1,\n    \"team_abbreviation\" : \"OKC\",\n    \"is_starter\" : false,\n
+        \   \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\" : 0.5,\n
+        \   \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" : \"Aldrich\",\n
+        \   \"first_name\" : \"Cole\",\n    \"display_name\" : \"Cole Aldrich\",\n
+        \   \"position\" : \"C\",\n    \"minutes\" : 5,\n    \"points\" : 2,\n    \"assists\"
+        : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n    \"blocks\" : 0,\n    \"field_goals_attempted\"
+        : 1,\n    \"field_goals_made\" : 1,\n    \"three_point_field_goals_attempted\"
+        : 0,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 0,\n    \"free_throws_made\" : 0,\n    \"defensive_rebounds\" : 1,\n    \"offensive_rebounds\"
+        : 0,\n    \"personal_fouls\" : 0,\n    \"team_abbreviation\" : \"OKC\",\n
+        \   \"is_starter\" : false,\n    \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\"
+        : 1.0,\n    \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" :
+        \"Hayward\",\n    \"first_name\" : \"Lazar\",\n    \"display_name\" : \"Lazar
+        Hayward\",\n    \"position\" : \"SF\",\n    \"minutes\" : 5,\n    \"points\"
+        : 2,\n    \"assists\" : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n
+        \   \"blocks\" : 0,\n    \"field_goals_attempted\" : 2,\n    \"field_goals_made\"
+        : 1,\n    \"three_point_field_goals_attempted\" : 0,\n    \"three_point_field_goals_made\"
+        : 0,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 2,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 1,\n    \"team_abbreviation\" : \"OKC\",\n    \"is_starter\" : false,\n
+        \   \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\" : 0.5,\n
+        \   \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" : \"Ivey\",\n
+        \   \"first_name\" : \"Royal\",\n    \"display_name\" : \"Royal Ivey\",\n
+        \   \"position\" : \"PG\",\n    \"minutes\" : 3,\n    \"points\" : 6,\n    \"assists\"
+        : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n    \"blocks\" : 0,\n    \"field_goals_attempted\"
+        : 2,\n    \"field_goals_made\" : 2,\n    \"three_point_field_goals_attempted\"
+        : 2,\n    \"three_point_field_goals_made\" : 2,\n    \"free_throws_attempted\"
+        : 0,\n    \"free_throws_made\" : 0,\n    \"defensive_rebounds\" : 0,\n    \"offensive_rebounds\"
+        : 0,\n    \"personal_fouls\" : 0,\n    \"team_abbreviation\" : \"OKC\",\n
+        \   \"is_starter\" : false,\n    \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\"
+        : 1.0,\n    \"three_point_percentage\" : 1.0\n  } ],\n  \"home_stats\" : [
+        {\n    \"last_name\" : \"James\",\n    \"first_name\" : \"LeBron\",\n    \"display_name\"
+        : \"LeBron James\",\n    \"position\" : \"SF\",\n    \"minutes\" : 44,\n    \"points\"
+        : 26,\n    \"assists\" : 13,\n    \"turnovers\" : 6,\n    \"steals\" : 1,\n
+        \   \"blocks\" : 2,\n    \"field_goals_attempted\" : 19,\n    \"field_goals_made\"
+        : 9,\n    \"three_point_field_goals_attempted\" : 3,\n    \"three_point_field_goals_made\"
+        : 0,\n    \"free_throws_attempted\" : 9,\n    \"free_throws_made\" : 8,\n
+        \   \"defensive_rebounds\" : 7,\n    \"offensive_rebounds\" : 4,\n    \"personal_fouls\"
+        : 2,\n    \"team_abbreviation\" : \"MIA\",\n    \"is_starter\" : true,\n    \"free_throw_percentage\"
+        : 0.889,\n    \"field_goal_percentage\" : 0.474,\n    \"three_point_percentage\"
+        : 0.0\n  }, {\n    \"last_name\" : \"Wade\",\n    \"first_name\" : \"Dwyane\",\n
+        \   \"display_name\" : \"Dwyane Wade\",\n    \"position\" : \"SG\",\n    \"minutes\"
+        : 35,\n    \"points\" : 20,\n    \"assists\" : 3,\n    \"turnovers\" : 1,\n
+        \   \"steals\" : 2,\n    \"blocks\" : 3,\n    \"field_goals_attempted\" :
+        12,\n    \"field_goals_made\" : 7,\n    \"three_point_field_goals_attempted\"
+        : 0,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 9,\n    \"free_throws_made\" : 6,\n    \"defensive_rebounds\" : 6,\n    \"offensive_rebounds\"
+        : 2,\n    \"personal_fouls\" : 4,\n    \"team_abbreviation\" : \"MIA\",\n
+        \   \"is_starter\" : true,\n    \"free_throw_percentage\" : 0.667,\n    \"field_goal_percentage\"
+        : 0.583,\n    \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\"
+        : \"Bosh\",\n    \"first_name\" : \"Chris\",\n    \"display_name\" : \"Chris
+        Bosh\",\n    \"position\" : \"PF\",\n    \"minutes\" : 34,\n    \"points\"
+        : 24,\n    \"assists\" : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 1,\n
+        \   \"blocks\" : 2,\n    \"field_goals_attempted\" : 14,\n    \"field_goals_made\"
+        : 9,\n    \"three_point_field_goals_attempted\" : 1,\n    \"three_point_field_goals_made\"
+        : 1,\n    \"free_throws_attempted\" : 5,\n    \"free_throws_made\" : 5,\n
+        \   \"defensive_rebounds\" : 7,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 1,\n    \"team_abbreviation\" : \"MIA\",\n    \"is_starter\" : true,\n    \"free_throw_percentage\"
+        : 1.0,\n    \"field_goal_percentage\" : 0.643,\n    \"three_point_percentage\"
+        : 1.0\n  }, {\n    \"last_name\" : \"Chalmers\",\n    \"first_name\" : \"Mario\",\n
+        \   \"display_name\" : \"Mario Chalmers\",\n    \"position\" : \"PG\",\n    \"minutes\"
+        : 34,\n    \"points\" : 10,\n    \"assists\" : 7,\n    \"turnovers\" : 4,\n
+        \   \"steals\" : 2,\n    \"blocks\" : 0,\n    \"field_goals_attempted\" :
+        6,\n    \"field_goals_made\" : 3,\n    \"three_point_field_goals_attempted\"
+        : 4,\n    \"three_point_field_goals_made\" : 2,\n    \"free_throws_attempted\"
+        : 2,\n    \"free_throws_made\" : 2,\n    \"defensive_rebounds\" : 1,\n    \"offensive_rebounds\"
+        : 1,\n    \"personal_fouls\" : 3,\n    \"team_abbreviation\" : \"MIA\",\n
+        \   \"is_starter\" : true,\n    \"free_throw_percentage\" : 1.0,\n    \"field_goal_percentage\"
+        : 0.5,\n    \"three_point_percentage\" : 0.5\n  }, {\n    \"last_name\" :
+        \"Battier\",\n    \"first_name\" : \"Shane\",\n    \"display_name\" : \"Shane
+        Battier\",\n    \"position\" : \"SF\",\n    \"minutes\" : 29,\n    \"points\"
+        : 11,\n    \"assists\" : 1,\n    \"turnovers\" : 1,\n    \"steals\" : 1,\n
+        \   \"blocks\" : 0,\n    \"field_goals_attempted\" : 8,\n    \"field_goals_made\"
+        : 4,\n    \"three_point_field_goals_attempted\" : 7,\n    \"three_point_field_goals_made\"
+        : 3,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 4,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 4,\n    \"team_abbreviation\" : \"MIA\",\n    \"is_starter\" : true,\n    \"free_throw_percentage\"
+        : 0.0,\n    \"field_goal_percentage\" : 0.5,\n    \"three_point_percentage\"
+        : 0.429\n  }, {\n    \"last_name\" : \"Miller\",\n    \"first_name\" : \"Mike\",\n
+        \   \"display_name\" : \"Mike Miller\",\n    \"position\" : \"SF\",\n    \"minutes\"
+        : 23,\n    \"points\" : 23,\n    \"assists\" : 0,\n    \"turnovers\" : 0,\n
+        \   \"steals\" : 1,\n    \"blocks\" : 0,\n    \"field_goals_attempted\" :
+        11,\n    \"field_goals_made\" : 7,\n    \"three_point_field_goals_attempted\"
+        : 8,\n    \"three_point_field_goals_made\" : 7,\n    \"free_throws_attempted\"
+        : 2,\n    \"free_throws_made\" : 2,\n    \"defensive_rebounds\" : 5,\n    \"offensive_rebounds\"
+        : 0,\n    \"personal_fouls\" : 4,\n    \"team_abbreviation\" : \"MIA\",\n
+        \   \"is_starter\" : false,\n    \"free_throw_percentage\" : 1.0,\n    \"field_goal_percentage\"
+        : 0.636,\n    \"three_point_percentage\" : 0.875\n  }, {\n    \"last_name\"
+        : \"Cole\",\n    \"first_name\" : \"Norris\",\n    \"display_name\" : \"Norris
+        Cole\",\n    \"position\" : \"PG\",\n    \"minutes\" : 17,\n    \"points\"
+        : 3,\n    \"assists\" : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n
+        \   \"blocks\" : 0,\n    \"field_goals_attempted\" : 4,\n    \"field_goals_made\"
+        : 1,\n    \"three_point_field_goals_attempted\" : 2,\n    \"three_point_field_goals_made\"
+        : 1,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 1,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 2,\n    \"team_abbreviation\" : \"MIA\",\n    \"is_starter\" : false,\n
+        \   \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\" : 0.25,\n
+        \   \"three_point_percentage\" : 0.5\n  }, {\n    \"last_name\" : \"Haslem\",\n
+        \   \"first_name\" : \"Udonis\",\n    \"display_name\" : \"Udonis Haslem\",\n
+        \   \"position\" : \"PF\",\n    \"minutes\" : 11,\n    \"points\" : 1,\n    \"assists\"
+        : 1,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n    \"blocks\" : 0,\n    \"field_goals_attempted\"
+        : 1,\n    \"field_goals_made\" : 0,\n    \"three_point_field_goals_attempted\"
+        : 0,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 2,\n    \"free_throws_made\" : 1,\n    \"defensive_rebounds\" : 0,\n    \"offensive_rebounds\"
+        : 1,\n    \"personal_fouls\" : 1,\n    \"team_abbreviation\" : \"MIA\",\n
+        \   \"is_starter\" : false,\n    \"free_throw_percentage\" : 0.5,\n    \"field_goal_percentage\"
+        : 0.0,\n    \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" :
+        \"Jones\",\n    \"first_name\" : \"James\",\n    \"display_name\" : \"James
+        Jones\",\n    \"position\" : \"SF\",\n    \"minutes\" : 5,\n    \"points\"
+        : 0,\n    \"assists\" : 0,\n    \"turnovers\" : 1,\n    \"steals\" : 0,\n
+        \   \"blocks\" : 0,\n    \"field_goals_attempted\" : 1,\n    \"field_goals_made\"
+        : 0,\n    \"three_point_field_goals_attempted\" : 1,\n    \"three_point_field_goals_made\"
+        : 0,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 0,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 0,\n    \"team_abbreviation\" : \"MIA\",\n    \"is_starter\" : false,\n
+        \   \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\" : 0.0,\n
+        \   \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" : \"Howard\",\n
+        \   \"first_name\" : \"Juwan\",\n    \"display_name\" : \"Juwan Howard\",\n
+        \   \"position\" : \"PF\",\n    \"minutes\" : 3,\n    \"points\" : 0,\n    \"assists\"
+        : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n    \"blocks\" : 0,\n    \"field_goals_attempted\"
+        : 1,\n    \"field_goals_made\" : 0,\n    \"three_point_field_goals_attempted\"
+        : 0,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 0,\n    \"free_throws_made\" : 0,\n    \"defensive_rebounds\" : 0,\n    \"offensive_rebounds\"
+        : 0,\n    \"personal_fouls\" : 0,\n    \"team_abbreviation\" : \"MIA\",\n
+        \   \"is_starter\" : false,\n    \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\"
+        : 0.0,\n    \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" :
+        \"Turiaf\",\n    \"first_name\" : \"Ronny\",\n    \"display_name\" : \"Ronny
+        Turiaf\",\n    \"position\" : \"C\",\n    \"minutes\" : 3,\n    \"points\"
+        : 0,\n    \"assists\" : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n
+        \   \"blocks\" : 0,\n    \"field_goals_attempted\" : 0,\n    \"field_goals_made\"
+        : 0,\n    \"three_point_field_goals_attempted\" : 0,\n    \"three_point_field_goals_made\"
+        : 0,\n    \"free_throws_attempted\" : 0,\n    \"free_throws_made\" : 0,\n
+        \   \"defensive_rebounds\" : 1,\n    \"offensive_rebounds\" : 0,\n    \"personal_fouls\"
+        : 0,\n    \"team_abbreviation\" : \"MIA\",\n    \"is_starter\" : false,\n
+        \   \"free_throw_percentage\" : 0.0,\n    \"field_goal_percentage\" : 0.0,\n
+        \   \"three_point_percentage\" : 0.0\n  }, {\n    \"last_name\" : \"Harris\",\n
+        \   \"first_name\" : \"Terrel\",\n    \"display_name\" : \"Terrel Harris\",\n
+        \   \"position\" : \"SG\",\n    \"minutes\" : 3,\n    \"points\" : 3,\n    \"assists\"
+        : 0,\n    \"turnovers\" : 0,\n    \"steals\" : 0,\n    \"blocks\" : 0,\n    \"field_goals_attempted\"
+        : 0,\n    \"field_goals_made\" : 0,\n    \"three_point_field_goals_attempted\"
+        : 0,\n    \"three_point_field_goals_made\" : 0,\n    \"free_throws_attempted\"
+        : 4,\n    \"free_throws_made\" : 3,\n    \"defensive_rebounds\" : 1,\n    \"offensive_rebounds\"
+        : 0,\n    \"personal_fouls\" : 0,\n    \"team_abbreviation\" : \"MIA\",\n
+        \   \"is_starter\" : false,\n    \"free_throw_percentage\" : 0.75,\n    \"field_goal_percentage\"
+        : 0.0,\n    \"three_point_percentage\" : 0.0\n  } ],\n  \"officials\" : [
+        {\n    \"position\" : null,\n    \"first_name\" : \"Derrick\",\n    \"last_name\"
+        : \"Stafford\"\n  }, {\n    \"position\" : null,\n    \"first_name\" : \"Dan\",\n
+        \   \"last_name\" : \"Crawford\"\n  }, {\n    \"position\" : null,\n    \"first_name\"
+        : \"Monty\",\n    \"last_name\" : \"McCutchen\"\n  } ],\n  \"event_information\"
+        : {\n    \"temperature\" : 0,\n    \"site\" : {\n      \"capacity\" : 19600,\n
+        \     \"surface\" : \"Hardwood\",\n      \"name\" : \"AmericanAirlines Arena\",\n
+        \     \"city\" : \"Miami\",\n      \"state\" : \"Florida\"\n    },\n    \"attendance\"
+        : 20003,\n    \"duration\" : \"2:40\",\n    \"season_type\" : \"post\",\n
+        \   \"start_date_time\" : \"2012-06-21T21:00:00-04:00\"\n  },\n  \"away_totals\"
+        : {\n    \"minutes\" : 241,\n    \"points\" : 106,\n    \"assists\" : 19,\n
+        \   \"turnovers\" : 13,\n    \"steals\" : 7,\n    \"blocks\" : 3,\n    \"field_goals_attempted\"
+        : 87,\n    \"field_goals_made\" : 36,\n    \"three_point_field_goals_attempted\"
+        : 28,\n    \"three_point_field_goals_made\" : 11,\n    \"free_throws_attempted\"
+        : 26,\n    \"free_throws_made\" : 23,\n    \"defensive_rebounds\" : 28,\n
+        \   \"offensive_rebounds\" : 10,\n    \"personal_fouls\" : 29,\n    \"free_throw_percentage\"
+        : 0.885,\n    \"field_goal_percentage\" : 0.414,\n    \"three_point_percentage\"
+        : 0.393\n  },\n  \"home_totals\" : {\n    \"minutes\" : 241,\n    \"points\"
+        : 121,\n    \"assists\" : 25,\n    \"turnovers\" : 13,\n    \"steals\" : 8,\n
+        \   \"blocks\" : 7,\n    \"field_goals_attempted\" : 77,\n    \"field_goals_made\"
+        : 40,\n    \"three_point_field_goals_attempted\" : 26,\n    \"three_point_field_goals_made\"
+        : 14,\n    \"free_throws_attempted\" : 33,\n    \"free_throws_made\" : 27,\n
+        \   \"defensive_rebounds\" : 33,\n    \"offensive_rebounds\" : 8,\n    \"personal_fouls\"
+        : 21,\n    \"free_throw_percentage\" : 0.818,\n    \"field_goal_percentage\"
+        : 0.519,\n    \"three_point_percentage\" : 0.538\n  }\n}"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:19:53 GMT
+recorded_with: VCR 2.5.0

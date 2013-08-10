@@ -1,0 +1,141 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/events.json?date=1&sport=xxx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Xmlstats-Api-Method:
+      - events
+      Xmlstats-Api-Exec-Time:
+      - '9'
+      Xmlstats-Api-Limit:
+      - ''
+      Etag:
+      - '278562584'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '66'
+      Date:
+      - Sat, 10 Aug 2013 22:19:52 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"events_date\" : \"2013-08-10T18:00:00-04:00\",\n  \"event\"
+        : [ ]\n}"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:19:52 GMT
+- request:
+    method: get
+    uri: https://erikberg.com/events.json?date=blah&sport=xxx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Xmlstats-Api-Method:
+      - events
+      Xmlstats-Api-Exec-Time:
+      - '3'
+      Xmlstats-Api-Limit:
+      - ''
+      Etag:
+      - '278562584'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '66'
+      Date:
+      - Sat, 10 Aug 2013 22:20:17 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"events_date\" : \"2013-08-10T18:00:00-04:00\",\n  \"event\"
+        : [ ]\n}"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:20:17 GMT
+- request:
+    method: get
+    uri: https://erikberg.com/events.bad-bad?date=blah&sport=xxx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Set-Cookie:
+      - JSESSIONID=C7386FD861F171EC51B075F1C543E7EC; Path=/; Secure; HttpOnly
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 10 Aug 2013 22:20:53 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! '
+
+        <!DOCTYPE html>
+
+        <html>
+
+        <head>
+
+        <title>four oh four - xmlstats</title>
+
+        <link rel="stylesheet" type="text/css" href="/style/default.css"/>
+
+        </head>
+
+        <body style="height:800px">
+
+
+        <div class="oops">
+
+        <h1>Sorry...</h1>
+
+
+        <p>The page you were looking for was not found.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XMpHGekdo0I"></iframe>
+
+        <p><a href="/api">xmlstats api</a></p>
+
+        </div>
+
+
+        </body>
+
+        </html>
+
+'
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:20:53 GMT
+recorded_with: VCR 2.5.0

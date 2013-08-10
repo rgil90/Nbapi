@@ -1,0 +1,179 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/nba/teams.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - JSESSIONID=01021C0A712328D2F9BE0DDA7D67C9A2; Path=/; Secure; HttpOnly
+      Xmlstats-Api-Method:
+      - teams
+      Xmlstats-Api-Exec-Time:
+      - '5'
+      Xmlstats-Api-Limit:
+      - ''
+      Etag:
+      - '1007298640'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '9373'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 10 Aug 2013 22:19:53 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "[ {\n  \"team_id\" : \"atlanta-hawks\",\n  \"abbreviation\" : \"ATL\",\n
+        \ \"active\" : true,\n  \"first_name\" : \"Atlanta\",\n  \"last_name\" : \"Hawks\",\n
+        \ \"conference\" : \"East\",\n  \"division\" : \"Southeast\",\n  \"site_name\"
+        : \"Philips Arena\",\n  \"city\" : \"Atlanta\",\n  \"state\" : \"Georgia\",\n
+        \ \"full_name\" : \"Atlanta Hawks\"\n}, {\n  \"team_id\" : \"boston-celtics\",\n
+        \ \"abbreviation\" : \"BOS\",\n  \"active\" : true,\n  \"first_name\" : \"Boston\",\n
+        \ \"last_name\" : \"Celtics\",\n  \"conference\" : \"East\",\n  \"division\"
+        : \"Atlantic\",\n  \"site_name\" : \"TD Garden\",\n  \"city\" : \"Boston\",\n
+        \ \"state\" : \"Massachusetts\",\n  \"full_name\" : \"Boston Celtics\"\n},
+        {\n  \"team_id\" : \"brooklyn-nets\",\n  \"abbreviation\" : \"BKN\",\n  \"active\"
+        : true,\n  \"first_name\" : \"Brooklyn\",\n  \"last_name\" : \"Nets\",\n  \"conference\"
+        : \"East\",\n  \"division\" : \"Atlantic\",\n  \"site_name\" : \"Barclays
+        Center\",\n  \"city\" : \"Brooklyn\",\n  \"state\" : \"New York\",\n  \"full_name\"
+        : \"Brooklyn Nets\"\n}, {\n  \"team_id\" : \"charlotte-bobcats\",\n  \"abbreviation\"
+        : \"CHA\",\n  \"active\" : true,\n  \"first_name\" : \"Charlotte\",\n  \"last_name\"
+        : \"Bobcats\",\n  \"conference\" : \"East\",\n  \"division\" : \"Southeast\",\n
+        \ \"site_name\" : \"Time Warner Cable Arena\",\n  \"city\" : \"Charlotte\",\n
+        \ \"state\" : \"North Carolina\",\n  \"full_name\" : \"Charlotte Bobcats\"\n},
+        {\n  \"team_id\" : \"chicago-bulls\",\n  \"abbreviation\" : \"CHI\",\n  \"active\"
+        : true,\n  \"first_name\" : \"Chicago\",\n  \"last_name\" : \"Bulls\",\n  \"conference\"
+        : \"East\",\n  \"division\" : \"Central\",\n  \"site_name\" : \"United Center\",\n
+        \ \"city\" : \"Chicago\",\n  \"state\" : \"Illinois\",\n  \"full_name\" :
+        \"Chicago Bulls\"\n}, {\n  \"team_id\" : \"cleveland-cavaliers\",\n  \"abbreviation\"
+        : \"CLE\",\n  \"active\" : true,\n  \"first_name\" : \"Cleveland\",\n  \"last_name\"
+        : \"Cavaliers\",\n  \"conference\" : \"East\",\n  \"division\" : \"Central\",\n
+        \ \"site_name\" : \"Quicken Loans Arena\",\n  \"city\" : \"Cleveland\",\n
+        \ \"state\" : \"Ohio\",\n  \"full_name\" : \"Cleveland Cavaliers\"\n}, {\n
+        \ \"team_id\" : \"dallas-mavericks\",\n  \"abbreviation\" : \"DAL\",\n  \"active\"
+        : true,\n  \"first_name\" : \"Dallas\",\n  \"last_name\" : \"Mavericks\",\n
+        \ \"conference\" : \"West\",\n  \"division\" : \"Southwest\",\n  \"site_name\"
+        : \"American Airlines Center\",\n  \"city\" : \"Dallas\",\n  \"state\" : \"Texas\",\n
+        \ \"full_name\" : \"Dallas Mavericks\"\n}, {\n  \"team_id\" : \"denver-nuggets\",\n
+        \ \"abbreviation\" : \"DEN\",\n  \"active\" : true,\n  \"first_name\" : \"Denver\",\n
+        \ \"last_name\" : \"Nuggets\",\n  \"conference\" : \"West\",\n  \"division\"
+        : \"Northwest\",\n  \"site_name\" : \"Pepsi Center\",\n  \"city\" : \"Denver\",\n
+        \ \"state\" : \"Colorado\",\n  \"full_name\" : \"Denver Nuggets\"\n}, {\n
+        \ \"team_id\" : \"detroit-pistons\",\n  \"abbreviation\" : \"DET\",\n  \"active\"
+        : true,\n  \"first_name\" : \"Detroit\",\n  \"last_name\" : \"Pistons\",\n
+        \ \"conference\" : \"East\",\n  \"division\" : \"Central\",\n  \"site_name\"
+        : \"The Palace of Auburn Hills\",\n  \"city\" : \"Auburn Hills\",\n  \"state\"
+        : \"Michigan\",\n  \"full_name\" : \"Detroit Pistons\"\n}, {\n  \"team_id\"
+        : \"golden-state-warriors\",\n  \"abbreviation\" : \"GS\",\n  \"active\" :
+        true,\n  \"first_name\" : \"Golden State\",\n  \"last_name\" : \"Warriors\",\n
+        \ \"conference\" : \"West\",\n  \"division\" : \"Pacific\",\n  \"site_name\"
+        : \"Oracle Arena\",\n  \"city\" : \"Oakland\",\n  \"state\" : \"California\",\n
+        \ \"full_name\" : \"Golden State Warriors\"\n}, {\n  \"team_id\" : \"houston-rockets\",\n
+        \ \"abbreviation\" : \"HOU\",\n  \"active\" : true,\n  \"first_name\" : \"Houston\",\n
+        \ \"last_name\" : \"Rockets\",\n  \"conference\" : \"West\",\n  \"division\"
+        : \"Southwest\",\n  \"site_name\" : \"Toyota Center\",\n  \"city\" : \"Houston\",\n
+        \ \"state\" : \"Texas\",\n  \"full_name\" : \"Houston Rockets\"\n}, {\n  \"team_id\"
+        : \"indiana-pacers\",\n  \"abbreviation\" : \"IND\",\n  \"active\" : true,\n
+        \ \"first_name\" : \"Indiana\",\n  \"last_name\" : \"Pacers\",\n  \"conference\"
+        : \"East\",\n  \"division\" : \"Central\",\n  \"site_name\" : \"Bankers Life
+        Fieldhouse\",\n  \"city\" : \"Indianapolis\",\n  \"state\" : \"Indiana\",\n
+        \ \"full_name\" : \"Indiana Pacers\"\n}, {\n  \"team_id\" : \"los-angeles-clippers\",\n
+        \ \"abbreviation\" : \"LAC\",\n  \"active\" : true,\n  \"first_name\" : \"Los
+        Angeles\",\n  \"last_name\" : \"Clippers\",\n  \"conference\" : \"West\",\n
+        \ \"division\" : \"Pacific\",\n  \"site_name\" : \"Staples Center\",\n  \"city\"
+        : \"Los Angeles\",\n  \"state\" : \"California\",\n  \"full_name\" : \"Los
+        Angeles Clippers\"\n}, {\n  \"team_id\" : \"los-angeles-lakers\",\n  \"abbreviation\"
+        : \"LAL\",\n  \"active\" : true,\n  \"first_name\" : \"Los Angeles\",\n  \"last_name\"
+        : \"Lakers\",\n  \"conference\" : \"West\",\n  \"division\" : \"Pacific\",\n
+        \ \"site_name\" : \"Staples Center\",\n  \"city\" : \"Los Angeles\",\n  \"state\"
+        : \"California\",\n  \"full_name\" : \"Los Angeles Lakers\"\n}, {\n  \"team_id\"
+        : \"memphis-grizzlies\",\n  \"abbreviation\" : \"MEM\",\n  \"active\" : true,\n
+        \ \"first_name\" : \"Memphis\",\n  \"last_name\" : \"Grizzlies\",\n  \"conference\"
+        : \"West\",\n  \"division\" : \"Southwest\",\n  \"site_name\" : \"FedEx Forum\",\n
+        \ \"city\" : \"Memphis\",\n  \"state\" : \"Tennessee\",\n  \"full_name\" :
+        \"Memphis Grizzlies\"\n}, {\n  \"team_id\" : \"miami-heat\",\n  \"abbreviation\"
+        : \"MIA\",\n  \"active\" : true,\n  \"first_name\" : \"Miami\",\n  \"last_name\"
+        : \"Heat\",\n  \"conference\" : \"East\",\n  \"division\" : \"Southeast\",\n
+        \ \"site_name\" : \"AmericanAirlines Arena\",\n  \"city\" : \"Miami\",\n  \"state\"
+        : \"Florida\",\n  \"full_name\" : \"Miami Heat\"\n}, {\n  \"team_id\" : \"milwaukee-bucks\",\n
+        \ \"abbreviation\" : \"MIL\",\n  \"active\" : true,\n  \"first_name\" : \"Milwaukee\",\n
+        \ \"last_name\" : \"Bucks\",\n  \"conference\" : \"East\",\n  \"division\"
+        : \"Central\",\n  \"site_name\" : \"BMO Harris Bradley Center\",\n  \"city\"
+        : \"Milwaukee\",\n  \"state\" : \"Wisconsin\",\n  \"full_name\" : \"Milwaukee
+        Bucks\"\n}, {\n  \"team_id\" : \"minnesota-timberwolves\",\n  \"abbreviation\"
+        : \"MIN\",\n  \"active\" : true,\n  \"first_name\" : \"Minnesota\",\n  \"last_name\"
+        : \"Timberwolves\",\n  \"conference\" : \"West\",\n  \"division\" : \"Northwest\",\n
+        \ \"site_name\" : \"Target Center\",\n  \"city\" : \"Minneapolis\",\n  \"state\"
+        : \"Minnesota\",\n  \"full_name\" : \"Minnesota Timberwolves\"\n}, {\n  \"team_id\"
+        : \"new-orleans-pelicans\",\n  \"abbreviation\" : \"NO\",\n  \"active\" :
+        true,\n  \"first_name\" : \"New Orleans\",\n  \"last_name\" : \"Pelicans\",\n
+        \ \"conference\" : \"West\",\n  \"division\" : \"Southwest\",\n  \"site_name\"
+        : \"New Orleans Arena\",\n  \"city\" : \"New Orleans\",\n  \"state\" : \"Louisiana\",\n
+        \ \"full_name\" : \"New Orleans Pelicans\"\n}, {\n  \"team_id\" : \"new-york-knicks\",\n
+        \ \"abbreviation\" : \"NY\",\n  \"active\" : true,\n  \"first_name\" : \"New
+        York\",\n  \"last_name\" : \"Knicks\",\n  \"conference\" : \"East\",\n  \"division\"
+        : \"Atlantic\",\n  \"site_name\" : \"Madison Square Garden\",\n  \"city\"
+        : \"New York\",\n  \"state\" : \"New York\",\n  \"full_name\" : \"New York
+        Knicks\"\n}, {\n  \"team_id\" : \"oklahoma-city-thunder\",\n  \"abbreviation\"
+        : \"OKC\",\n  \"active\" : true,\n  \"first_name\" : \"Oklahoma City\",\n
+        \ \"last_name\" : \"Thunder\",\n  \"conference\" : \"West\",\n  \"division\"
+        : \"Northwest\",\n  \"site_name\" : \"Chesapeake Energy Arena\",\n  \"city\"
+        : \"Oklahoma City\",\n  \"state\" : \"Oklahoma\",\n  \"full_name\" : \"Oklahoma
+        City Thunder\"\n}, {\n  \"team_id\" : \"orlando-magic\",\n  \"abbreviation\"
+        : \"ORL\",\n  \"active\" : true,\n  \"first_name\" : \"Orlando\",\n  \"last_name\"
+        : \"Magic\",\n  \"conference\" : \"East\",\n  \"division\" : \"Southeast\",\n
+        \ \"site_name\" : \"Amway Center\",\n  \"city\" : \"Orlando\",\n  \"state\"
+        : \"Florida\",\n  \"full_name\" : \"Orlando Magic\"\n}, {\n  \"team_id\" :
+        \"philadelphia-76ers\",\n  \"abbreviation\" : \"PHI\",\n  \"active\" : true,\n
+        \ \"first_name\" : \"Philadelphia\",\n  \"last_name\" : \"76ers\",\n  \"conference\"
+        : \"East\",\n  \"division\" : \"Atlantic\",\n  \"site_name\" : \"Wachovia
+        Center\",\n  \"city\" : \"Philadelphia\",\n  \"state\" : \"Pennsylvania\",\n
+        \ \"full_name\" : \"Philadelphia 76ers\"\n}, {\n  \"team_id\" : \"phoenix-suns\",\n
+        \ \"abbreviation\" : \"PHO\",\n  \"active\" : true,\n  \"first_name\" : \"Phoenix\",\n
+        \ \"last_name\" : \"Suns\",\n  \"conference\" : \"West\",\n  \"division\"
+        : \"Pacific\",\n  \"site_name\" : \"US Airways Center\",\n  \"city\" : \"Phoenix\",\n
+        \ \"state\" : \"Arizona\",\n  \"full_name\" : \"Phoenix Suns\"\n}, {\n  \"team_id\"
+        : \"portland-trail-blazers\",\n  \"abbreviation\" : \"POR\",\n  \"active\"
+        : true,\n  \"first_name\" : \"Portland\",\n  \"last_name\" : \"Trail Blazers\",\n
+        \ \"conference\" : \"West\",\n  \"division\" : \"Northwest\",\n  \"site_name\"
+        : \"Rose Garden\",\n  \"city\" : \"Portland\",\n  \"state\" : \"Oregon\",\n
+        \ \"full_name\" : \"Portland Trail Blazers\"\n}, {\n  \"team_id\" : \"sacramento-kings\",\n
+        \ \"abbreviation\" : \"SAC\",\n  \"active\" : true,\n  \"first_name\" : \"Sacramento\",\n
+        \ \"last_name\" : \"Kings\",\n  \"conference\" : \"West\",\n  \"division\"
+        : \"Pacific\",\n  \"site_name\" : \"Power Balance Pavilion\",\n  \"city\"
+        : \"Sacramento\",\n  \"state\" : \"California\",\n  \"full_name\" : \"Sacramento
+        Kings\"\n}, {\n  \"team_id\" : \"san-antonio-spurs\",\n  \"abbreviation\"
+        : \"SA\",\n  \"active\" : true,\n  \"first_name\" : \"San Antonio\",\n  \"last_name\"
+        : \"Spurs\",\n  \"conference\" : \"West\",\n  \"division\" : \"Southwest\",\n
+        \ \"site_name\" : \"AT&T Center\",\n  \"city\" : \"San Antonio\",\n  \"state\"
+        : \"Texas\",\n  \"full_name\" : \"San Antonio Spurs\"\n}, {\n  \"team_id\"
+        : \"toronto-raptors\",\n  \"abbreviation\" : \"TOR\",\n  \"active\" : true,\n
+        \ \"first_name\" : \"Toronto\",\n  \"last_name\" : \"Raptors\",\n  \"conference\"
+        : \"East\",\n  \"division\" : \"Atlantic\",\n  \"site_name\" : \"Air Canada
+        Centre\",\n  \"city\" : \"Toronto\",\n  \"state\" : \"Ontario\",\n  \"full_name\"
+        : \"Toronto Raptors\"\n}, {\n  \"team_id\" : \"utah-jazz\",\n  \"abbreviation\"
+        : \"UTA\",\n  \"active\" : true,\n  \"first_name\" : \"Utah\",\n  \"last_name\"
+        : \"Jazz\",\n  \"conference\" : \"West\",\n  \"division\" : \"Northwest\",\n
+        \ \"site_name\" : \"EnergySolutions Arena\",\n  \"city\" : \"Salt Lake City\",\n
+        \ \"state\" : \"Utah\",\n  \"full_name\" : \"Utah Jazz\"\n}, {\n  \"team_id\"
+        : \"washington-wizards\",\n  \"abbreviation\" : \"WAS\",\n  \"active\" : true,\n
+        \ \"first_name\" : \"Washington\",\n  \"last_name\" : \"Wizards\",\n  \"conference\"
+        : \"East\",\n  \"division\" : \"Southeast\",\n  \"site_name\" : \"Verizon
+        Center\",\n  \"city\" : \"Washington\",\n  \"state\" : \"District of Columbia\",\n
+        \ \"full_name\" : \"Washington Wizards\"\n} ]"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:19:54 GMT
+recorded_with: VCR 2.5.0

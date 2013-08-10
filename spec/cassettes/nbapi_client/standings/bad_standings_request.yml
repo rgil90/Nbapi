@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/nba/standings/20101225.bad
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Set-Cookie:
+      - JSESSIONID=7E366FED24F74407B055D5B398AF6C52; Path=/; Secure; HttpOnly
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 10 Aug 2013 22:42:32 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! '
+
+        <!DOCTYPE html>
+
+        <html>
+
+        <head>
+
+        <title>four oh four - xmlstats</title>
+
+        <link rel="stylesheet" type="text/css" href="/style/default.css"/>
+
+        </head>
+
+        <body style="height:800px">
+
+
+        <div class="oops">
+
+        <h1>Sorry...</h1>
+
+
+        <p>The page you were looking for was not found.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XMpHGekdo0I"></iframe>
+
+        <p><a href="/api">xmlstats api</a></p>
+
+        </div>
+
+
+        </body>
+
+        </html>
+
+'
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:42:32 GMT
+recorded_with: VCR 2.5.0

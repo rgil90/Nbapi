@@ -1,0 +1,366 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://erikberg.com/nba/standings.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 263076d4-1d59-4c71-94fd-7df39ee48560
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Methods:
+      - GET
+      Xmlstats-Api-Method:
+      - standings
+      Xmlstats-Api-Exec-Time:
+      - '7'
+      Xmlstats-Api-Limit:
+      - ''
+      Cache-Control:
+      - no-cache
+      Etag:
+      - '1475823018'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '22477'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sat, 10 Aug 2013 22:42:07 GMT
+      Server:
+      - Apache
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"standings_date\" : \"2013-04-18T00:00:00-04:00\",\n  \"standing\"
+        : [ {\n    \"rank\" : 1,\n    \"won\" : 66,\n    \"lost\" : 16,\n    \"streak\"
+        : \"W8\",\n    \"ordinal_rank\" : \"1st\",\n    \"first_name\" : \"Miami\",\n
+        \   \"last_name\" : \"Heat\",\n    \"games_back\" : 0.0,\n    \"points_for\"
+        : 8436,\n    \"points_against\" : 7791,\n    \"home_won\" : 37,\n    \"home_lost\"
+        : 4,\n    \"away_won\" : 29,\n    \"away_lost\" : 12,\n    \"conference_won\"
+        : 41,\n    \"conference_lost\" : 11,\n    \"last_five\" : \"5-0\",\n    \"last_ten\"
+        : \"9-1\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"SE\",\n    \"points_scored_per_game\"
+        : \"102.9\",\n    \"points_allowed_per_game\" : \"95.0\",\n    \"win_percentage\"
+        : \".805\",\n    \"point_differential\" : 645,\n    \"point_differential_per_game\"
+        : \"7.9\",\n    \"streak_type\" : \"win\",\n    \"streak_total\" : 8,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 2,\n    \"won\" : 54,\n    \"lost\" : 28,\n    \"streak\"
+        : \"W1\",\n    \"ordinal_rank\" : \"2nd\",\n    \"first_name\" : \"New York\",\n
+        \   \"last_name\" : \"Knicks\",\n    \"games_back\" : 12.0,\n    \"points_for\"
+        : 8196,\n    \"points_against\" : 7849,\n    \"home_won\" : 31,\n    \"home_lost\"
+        : 10,\n    \"away_won\" : 23,\n    \"away_lost\" : 18,\n    \"conference_won\"
+        : 37,\n    \"conference_lost\" : 15,\n    \"last_five\" : \"3-2\",\n    \"last_ten\"
+        : \"8-2\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"ATL\",\n
+        \   \"points_scored_per_game\" : \"100.0\",\n    \"points_allowed_per_game\"
+        : \"95.7\",\n    \"win_percentage\" : \".659\",\n    \"point_differential\"
+        : 347,\n    \"point_differential_per_game\" : \"4.2\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 1,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 3,\n    \"won\" : 49,\n    \"lost\" : 32,\n    \"streak\" :
+        \"L3\",\n    \"ordinal_rank\" : \"3rd\",\n    \"first_name\" : \"Indiana\",\n
+        \   \"last_name\" : \"Pacers\",\n    \"games_back\" : 16.5,\n    \"points_for\"
+        : 7674,\n    \"points_against\" : 7348,\n    \"home_won\" : 30,\n    \"home_lost\"
+        : 11,\n    \"away_won\" : 19,\n    \"away_lost\" : 21,\n    \"conference_won\"
+        : 31,\n    \"conference_lost\" : 20,\n    \"last_five\" : \"1-4\",\n    \"last_ten\"
+        : \"5-5\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"CEN\",\n
+        \   \"points_scored_per_game\" : \"94.7\",\n    \"points_allowed_per_game\"
+        : \"90.7\",\n    \"win_percentage\" : \".605\",\n    \"point_differential\"
+        : 326,\n    \"point_differential_per_game\" : \"4.0\",\n    \"streak_type\"
+        : \"loss\",\n    \"streak_total\" : 3,\n    \"games_played\" : 81\n  }, {\n
+        \   \"rank\" : 4,\n    \"won\" : 49,\n    \"lost\" : 33,\n    \"streak\" :
+        \"W2\",\n    \"ordinal_rank\" : \"4th\",\n    \"first_name\" : \"Brooklyn\",\n
+        \   \"last_name\" : \"Nets\",\n    \"games_back\" : 17.0,\n    \"points_for\"
+        : 7944,\n    \"points_against\" : 7798,\n    \"home_won\" : 26,\n    \"home_lost\"
+        : 15,\n    \"away_won\" : 23,\n    \"away_lost\" : 18,\n    \"conference_won\"
+        : 36,\n    \"conference_lost\" : 16,\n    \"last_five\" : \"4-1\",\n    \"last_ten\"
+        : \"7-3\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"ATL\",\n
+        \   \"points_scored_per_game\" : \"96.9\",\n    \"points_allowed_per_game\"
+        : \"95.1\",\n    \"win_percentage\" : \".598\",\n    \"point_differential\"
+        : 146,\n    \"point_differential_per_game\" : \"1.8\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 2,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 5,\n    \"won\" : 45,\n    \"lost\" : 37,\n    \"streak\" :
+        \"W2\",\n    \"ordinal_rank\" : \"5th\",\n    \"first_name\" : \"Chicago\",\n
+        \   \"last_name\" : \"Bulls\",\n    \"games_back\" : 21.0,\n    \"points_for\"
+        : 7641,\n    \"points_against\" : 7615,\n    \"home_won\" : 24,\n    \"home_lost\"
+        : 17,\n    \"away_won\" : 21,\n    \"away_lost\" : 20,\n    \"conference_won\"
+        : 34,\n    \"conference_lost\" : 18,\n    \"last_five\" : \"3-2\",\n    \"last_ten\"
+        : \"5-5\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"CEN\",\n
+        \   \"points_scored_per_game\" : \"93.2\",\n    \"points_allowed_per_game\"
+        : \"92.9\",\n    \"win_percentage\" : \".549\",\n    \"point_differential\"
+        : 26,\n    \"point_differential_per_game\" : \"0.3\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 2,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 6,\n    \"won\" : 44,\n    \"lost\" : 38,\n    \"streak\" :
+        \"L2\",\n    \"ordinal_rank\" : \"6th\",\n    \"first_name\" : \"Atlanta\",\n
+        \   \"last_name\" : \"Hawks\",\n    \"games_back\" : 22.0,\n    \"points_for\"
+        : 8032,\n    \"points_against\" : 7999,\n    \"home_won\" : 25,\n    \"home_lost\"
+        : 16,\n    \"away_won\" : 19,\n    \"away_lost\" : 22,\n    \"conference_won\"
+        : 29,\n    \"conference_lost\" : 23,\n    \"last_five\" : \"2-3\",\n    \"last_ten\"
+        : \"4-6\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"SE\",\n    \"points_scored_per_game\"
+        : \"98.0\",\n    \"points_allowed_per_game\" : \"97.5\",\n    \"win_percentage\"
+        : \".537\",\n    \"point_differential\" : 33,\n    \"point_differential_per_game\"
+        : \"0.4\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 2,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 7,\n    \"won\" : 41,\n    \"lost\" : 40,\n    \"streak\"
+        : \"L1\",\n    \"ordinal_rank\" : \"7th\",\n    \"first_name\" : \"Boston\",\n
+        \   \"last_name\" : \"Celtics\",\n    \"games_back\" : 24.5,\n    \"points_for\"
+        : 7818,\n    \"points_against\" : 7836,\n    \"home_won\" : 27,\n    \"home_lost\"
+        : 13,\n    \"away_won\" : 14,\n    \"away_lost\" : 27,\n    \"conference_won\"
+        : 27,\n    \"conference_lost\" : 24,\n    \"last_five\" : \"2-3\",\n    \"last_ten\"
+        : \"4-6\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"ATL\",\n
+        \   \"points_scored_per_game\" : \"96.5\",\n    \"points_allowed_per_game\"
+        : \"96.7\",\n    \"win_percentage\" : \".506\",\n    \"point_differential\"
+        : -18,\n    \"point_differential_per_game\" : \"-0.2\",\n    \"streak_type\"
+        : \"loss\",\n    \"streak_total\" : 1,\n    \"games_played\" : 81\n  }, {\n
+        \   \"rank\" : 8,\n    \"won\" : 38,\n    \"lost\" : 44,\n    \"streak\" :
+        \"W1\",\n    \"ordinal_rank\" : \"8th\",\n    \"first_name\" : \"Milwaukee\",\n
+        \   \"last_name\" : \"Bucks\",\n    \"games_back\" : 28.0,\n    \"points_for\"
+        : 8108,\n    \"points_against\" : 8231,\n    \"home_won\" : 21,\n    \"home_lost\"
+        : 20,\n    \"away_won\" : 17,\n    \"away_lost\" : 24,\n    \"conference_won\"
+        : 24,\n    \"conference_lost\" : 28,\n    \"last_five\" : \"1-4\",\n    \"last_ten\"
+        : \"3-7\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"CEN\",\n
+        \   \"points_scored_per_game\" : \"98.9\",\n    \"points_allowed_per_game\"
+        : \"100.4\",\n    \"win_percentage\" : \".463\",\n    \"point_differential\"
+        : -123,\n    \"point_differential_per_game\" : \"-1.5\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 1,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 9,\n    \"won\" : 34,\n    \"lost\" : 48,\n    \"streak\" :
+        \"W1\",\n    \"ordinal_rank\" : \"9th\",\n    \"first_name\" : \"Philadelphia\",\n
+        \   \"last_name\" : \"76ers\",\n    \"games_back\" : 32.0,\n    \"points_for\"
+        : 7640,\n    \"points_against\" : 7914,\n    \"home_won\" : 23,\n    \"home_lost\"
+        : 18,\n    \"away_won\" : 11,\n    \"away_lost\" : 30,\n    \"conference_won\"
+        : 22,\n    \"conference_lost\" : 30,\n    \"last_five\" : \"3-2\",\n    \"last_ten\"
+        : \"5-5\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"ATL\",\n
+        \   \"points_scored_per_game\" : \"93.2\",\n    \"points_allowed_per_game\"
+        : \"96.5\",\n    \"win_percentage\" : \".415\",\n    \"point_differential\"
+        : -274,\n    \"point_differential_per_game\" : \"-3.3\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 1,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 9,\n    \"won\" : 34,\n    \"lost\" : 48,\n    \"streak\" :
+        \"W5\",\n    \"ordinal_rank\" : \"9th\",\n    \"first_name\" : \"Toronto\",\n
+        \   \"last_name\" : \"Raptors\",\n    \"games_back\" : 32.0,\n    \"points_for\"
+        : 7971,\n    \"points_against\" : 8092,\n    \"home_won\" : 21,\n    \"home_lost\"
+        : 20,\n    \"away_won\" : 13,\n    \"away_lost\" : 28,\n    \"conference_won\"
+        : 22,\n    \"conference_lost\" : 30,\n    \"last_five\" : \"5-0\",\n    \"last_ten\"
+        : \"7-3\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"ATL\",\n
+        \   \"points_scored_per_game\" : \"97.2\",\n    \"points_allowed_per_game\"
+        : \"98.7\",\n    \"win_percentage\" : \".415\",\n    \"point_differential\"
+        : -121,\n    \"point_differential_per_game\" : \"-1.5\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 5,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 11,\n    \"won\" : 29,\n    \"lost\" : 53,\n    \"streak\"
+        : \"L6\",\n    \"ordinal_rank\" : \"11th\",\n    \"first_name\" : \"Washington\",\n
+        \   \"last_name\" : \"Wizards\",\n    \"games_back\" : 37.0,\n    \"points_for\"
+        : 7644,\n    \"points_against\" : 7852,\n    \"home_won\" : 22,\n    \"home_lost\"
+        : 19,\n    \"away_won\" : 7,\n    \"away_lost\" : 34,\n    \"conference_won\"
+        : 15,\n    \"conference_lost\" : 37,\n    \"last_five\" : \"0-5\",\n    \"last_ten\"
+        : \"3-7\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"SE\",\n    \"points_scored_per_game\"
+        : \"93.2\",\n    \"points_allowed_per_game\" : \"95.8\",\n    \"win_percentage\"
+        : \".354\",\n    \"point_differential\" : -208,\n    \"point_differential_per_game\"
+        : \"-2.5\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 6,\n
+        \   \"games_played\" : 82\n  }, {\n    \"rank\" : 11,\n    \"won\" : 29,\n
+        \   \"lost\" : 53,\n    \"streak\" : \"L1\",\n    \"ordinal_rank\" : \"11th\",\n
+        \   \"first_name\" : \"Detroit\",\n    \"last_name\" : \"Pistons\",\n    \"games_back\"
+        : 37.0,\n    \"points_for\" : 7778,\n    \"points_against\" : 8105,\n    \"home_won\"
+        : 18,\n    \"home_lost\" : 23,\n    \"away_won\" : 11,\n    \"away_lost\"
+        : 30,\n    \"conference_won\" : 25,\n    \"conference_lost\" : 27,\n    \"last_five\"
+        : \"4-1\",\n    \"last_ten\" : \"5-5\",\n    \"conference\" : \"EAST\",\n
+        \   \"division\" : \"CEN\",\n    \"points_scored_per_game\" : \"94.9\",\n
+        \   \"points_allowed_per_game\" : \"98.8\",\n    \"win_percentage\" : \".354\",\n
+        \   \"point_differential\" : -327,\n    \"point_differential_per_game\" :
+        \"-4.0\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 1,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 13,\n    \"won\" : 24,\n    \"lost\" : 58,\n
+        \   \"streak\" : \"L6\",\n    \"ordinal_rank\" : \"13th\",\n    \"first_name\"
+        : \"Cleveland\",\n    \"last_name\" : \"Cavaliers\",\n    \"games_back\" :
+        42.0,\n    \"points_for\" : 7913,\n    \"points_against\" : 8297,\n    \"home_won\"
+        : 14,\n    \"home_lost\" : 27,\n    \"away_won\" : 10,\n    \"away_lost\"
+        : 31,\n    \"conference_won\" : 18,\n    \"conference_lost\" : 34,\n    \"last_five\"
+        : \"0-5\",\n    \"last_ten\" : \"2-8\",\n    \"conference\" : \"EAST\",\n
+        \   \"division\" : \"CEN\",\n    \"points_scored_per_game\" : \"96.5\",\n
+        \   \"points_allowed_per_game\" : \"101.2\",\n    \"win_percentage\" : \".293\",\n
+        \   \"point_differential\" : -384,\n    \"point_differential_per_game\" :
+        \"-4.7\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 6,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 14,\n    \"won\" : 21,\n    \"lost\" : 61,\n
+        \   \"streak\" : \"W3\",\n    \"ordinal_rank\" : \"14th\",\n    \"first_name\"
+        : \"Charlotte\",\n    \"last_name\" : \"Bobcats\",\n    \"games_back\" : 45.0,\n
+        \   \"points_for\" : 7661,\n    \"points_against\" : 8418,\n    \"home_won\"
+        : 15,\n    \"home_lost\" : 26,\n    \"away_won\" : 6,\n    \"away_lost\" :
+        35,\n    \"conference_won\" : 18,\n    \"conference_lost\" : 34,\n    \"last_five\"
+        : \"3-2\",\n    \"last_ten\" : \"4-6\",\n    \"conference\" : \"EAST\",\n
+        \   \"division\" : \"SE\",\n    \"points_scored_per_game\" : \"93.4\",\n    \"points_allowed_per_game\"
+        : \"102.7\",\n    \"win_percentage\" : \".256\",\n    \"point_differential\"
+        : -757,\n    \"point_differential_per_game\" : \"-9.2\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 3,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 15,\n    \"won\" : 20,\n    \"lost\" : 62,\n    \"streak\"
+        : \"L3\",\n    \"ordinal_rank\" : \"15th\",\n    \"first_name\" : \"Orlando\",\n
+        \   \"last_name\" : \"Magic\",\n    \"games_back\" : 46.0,\n    \"points_for\"
+        : 7718,\n    \"points_against\" : 8291,\n    \"home_won\" : 12,\n    \"home_lost\"
+        : 29,\n    \"away_won\" : 8,\n    \"away_lost\" : 33,\n    \"conference_won\"
+        : 10,\n    \"conference_lost\" : 42,\n    \"last_five\" : \"1-4\",\n    \"last_ten\"
+        : \"2-8\",\n    \"conference\" : \"EAST\",\n    \"division\" : \"SE\",\n    \"points_scored_per_game\"
+        : \"94.1\",\n    \"points_allowed_per_game\" : \"101.1\",\n    \"win_percentage\"
+        : \".244\",\n    \"point_differential\" : -573,\n    \"point_differential_per_game\"
+        : \"-7.0\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 3,\n
+        \   \"games_played\" : 82\n  }, {\n    \"rank\" : 1,\n    \"won\" : 60,\n
+        \   \"lost\" : 22,\n    \"streak\" : \"L1\",\n    \"ordinal_rank\" : \"1st\",\n
+        \   \"first_name\" : \"Oklahoma City\",\n    \"last_name\" : \"Thunder\",\n
+        \   \"games_back\" : 0.0,\n    \"points_for\" : 8669,\n    \"points_against\"
+        : 7914,\n    \"home_won\" : 34,\n    \"home_lost\" : 7,\n    \"away_won\"
+        : 26,\n    \"away_lost\" : 15,\n    \"conference_won\" : 39,\n    \"conference_lost\"
+        : 13,\n    \"last_five\" : \"4-1\",\n    \"last_ten\" : \"7-3\",\n    \"conference\"
+        : \"WEST\",\n    \"division\" : \"NW\",\n    \"points_scored_per_game\" :
+        \"105.7\",\n    \"points_allowed_per_game\" : \"96.5\",\n    \"win_percentage\"
+        : \".732\",\n    \"point_differential\" : 755,\n    \"point_differential_per_game\"
+        : \"9.2\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 1,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 2,\n    \"won\" : 58,\n    \"lost\" : 24,\n    \"streak\"
+        : \"L3\",\n    \"ordinal_rank\" : \"2nd\",\n    \"first_name\" : \"San Antonio\",\n
+        \   \"last_name\" : \"Spurs\",\n    \"games_back\" : 2.0,\n    \"points_for\"
+        : 8448,\n    \"points_against\" : 7923,\n    \"home_won\" : 35,\n    \"home_lost\"
+        : 6,\n    \"away_won\" : 23,\n    \"away_lost\" : 18,\n    \"conference_won\"
+        : 33,\n    \"conference_lost\" : 19,\n    \"last_five\" : \"1-4\",\n    \"last_ten\"
+        : \"3-7\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"SW\",\n    \"points_scored_per_game\"
+        : \"103.0\",\n    \"points_allowed_per_game\" : \"96.6\",\n    \"win_percentage\"
+        : \".707\",\n    \"point_differential\" : 525,\n    \"point_differential_per_game\"
+        : \"6.4\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 3,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 3,\n    \"won\" : 57,\n    \"lost\" : 25,\n    \"streak\"
+        : \"W3\",\n    \"ordinal_rank\" : \"3rd\",\n    \"first_name\" : \"Denver\",\n
+        \   \"last_name\" : \"Nuggets\",\n    \"games_back\" : 3.0,\n    \"points_for\"
+        : 8704,\n    \"points_against\" : 8287,\n    \"home_won\" : 38,\n    \"home_lost\"
+        : 3,\n    \"away_won\" : 19,\n    \"away_lost\" : 22,\n    \"conference_won\"
+        : 38,\n    \"conference_lost\" : 14,\n    \"last_five\" : \"4-1\",\n    \"last_ten\"
+        : \"8-2\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"NW\",\n    \"points_scored_per_game\"
+        : \"106.1\",\n    \"points_allowed_per_game\" : \"101.1\",\n    \"win_percentage\"
+        : \".695\",\n    \"point_differential\" : 417,\n    \"point_differential_per_game\"
+        : \"5.1\",\n    \"streak_type\" : \"win\",\n    \"streak_total\" : 3,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 4,\n    \"won\" : 56,\n    \"lost\" : 26,\n    \"streak\"
+        : \"W7\",\n    \"ordinal_rank\" : \"4th\",\n    \"first_name\" : \"Los Angeles\",\n
+        \   \"last_name\" : \"Clippers\",\n    \"games_back\" : 4.0,\n    \"points_for\"
+        : 8289,\n    \"points_against\" : 7760,\n    \"home_won\" : 32,\n    \"home_lost\"
+        : 9,\n    \"away_won\" : 24,\n    \"away_lost\" : 17,\n    \"conference_won\"
+        : 35,\n    \"conference_lost\" : 17,\n    \"last_five\" : \"5-0\",\n    \"last_ten\"
+        : \"7-3\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"PAC\",\n
+        \   \"points_scored_per_game\" : \"101.1\",\n    \"points_allowed_per_game\"
+        : \"94.6\",\n    \"win_percentage\" : \".683\",\n    \"point_differential\"
+        : 529,\n    \"point_differential_per_game\" : \"6.5\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 7,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 4,\n    \"won\" : 56,\n    \"lost\" : 26,\n    \"streak\" :
+        \"W2\",\n    \"ordinal_rank\" : \"4th\",\n    \"first_name\" : \"Memphis\",\n
+        \   \"last_name\" : \"Grizzlies\",\n    \"games_back\" : 4.0,\n    \"points_for\"
+        : 7659,\n    \"points_against\" : 7319,\n    \"home_won\" : 32,\n    \"home_lost\"
+        : 9,\n    \"away_won\" : 24,\n    \"away_lost\" : 17,\n    \"conference_won\"
+        : 34,\n    \"conference_lost\" : 18,\n    \"last_five\" : \"4-1\",\n    \"last_ten\"
+        : \"8-2\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"SW\",\n    \"points_scored_per_game\"
+        : \"93.4\",\n    \"points_allowed_per_game\" : \"89.3\",\n    \"win_percentage\"
+        : \".683\",\n    \"point_differential\" : 340,\n    \"point_differential_per_game\"
+        : \"4.1\",\n    \"streak_type\" : \"win\",\n    \"streak_total\" : 2,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 6,\n    \"won\" : 47,\n    \"lost\" : 35,\n    \"streak\"
+        : \"W2\",\n    \"ordinal_rank\" : \"6th\",\n    \"first_name\" : \"Golden
+        State\",\n    \"last_name\" : \"Warriors\",\n    \"games_back\" : 13.0,\n
+        \   \"points_for\" : 8296,\n    \"points_against\" : 8223,\n    \"home_won\"
+        : 28,\n    \"home_lost\" : 13,\n    \"away_won\" : 19,\n    \"away_lost\"
+        : 22,\n    \"conference_won\" : 28,\n    \"conference_lost\" : 24,\n    \"last_five\"
+        : \"3-2\",\n    \"last_ten\" : \"6-4\",\n    \"conference\" : \"WEST\",\n
+        \   \"division\" : \"PAC\",\n    \"points_scored_per_game\" : \"101.2\",\n
+        \   \"points_allowed_per_game\" : \"100.3\",\n    \"win_percentage\" : \".573\",\n
+        \   \"point_differential\" : 73,\n    \"point_differential_per_game\" : \"0.9\",\n
+        \   \"streak_type\" : \"win\",\n    \"streak_total\" : 2,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 7,\n    \"won\" : 45,\n    \"lost\" : 37,\n    \"streak\"
+        : \"L2\",\n    \"ordinal_rank\" : \"7th\",\n    \"first_name\" : \"Houston\",\n
+        \   \"last_name\" : \"Rockets\",\n    \"games_back\" : 15.0,\n    \"points_for\"
+        : 8688,\n    \"points_against\" : 8403,\n    \"home_won\" : 29,\n    \"home_lost\"
+        : 12,\n    \"away_won\" : 16,\n    \"away_lost\" : 25,\n    \"conference_won\"
+        : 24,\n    \"conference_lost\" : 28,\n    \"last_five\" : \"2-3\",\n    \"last_ten\"
+        : \"6-4\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"SW\",\n    \"points_scored_per_game\"
+        : \"106.0\",\n    \"points_allowed_per_game\" : \"102.5\",\n    \"win_percentage\"
+        : \".549\",\n    \"point_differential\" : 285,\n    \"point_differential_per_game\"
+        : \"3.5\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 2,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 7,\n    \"won\" : 45,\n    \"lost\" : 37,\n    \"streak\"
+        : \"W5\",\n    \"ordinal_rank\" : \"7th\",\n    \"first_name\" : \"Los Angeles\",\n
+        \   \"last_name\" : \"Lakers\",\n    \"games_back\" : 15.0,\n    \"points_for\"
+        : 8381,\n    \"points_against\" : 8286,\n    \"home_won\" : 29,\n    \"home_lost\"
+        : 12,\n    \"away_won\" : 16,\n    \"away_lost\" : 25,\n    \"conference_won\"
+        : 28,\n    \"conference_lost\" : 24,\n    \"last_five\" : \"5-0\",\n    \"last_ten\"
+        : \"8-2\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"PAC\",\n
+        \   \"points_scored_per_game\" : \"102.2\",\n    \"points_allowed_per_game\"
+        : \"101.0\",\n    \"win_percentage\" : \".549\",\n    \"point_differential\"
+        : 95,\n    \"point_differential_per_game\" : \"1.2\",\n    \"streak_type\"
+        : \"win\",\n    \"streak_total\" : 5,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 9,\n    \"won\" : 43,\n    \"lost\" : 39,\n    \"streak\" :
+        \"L1\",\n    \"ordinal_rank\" : \"9th\",\n    \"first_name\" : \"Utah\",\n
+        \   \"last_name\" : \"Jazz\",\n    \"games_back\" : 17.0,\n    \"points_for\"
+        : 8038,\n    \"points_against\" : 8045,\n    \"home_won\" : 30,\n    \"home_lost\"
+        : 11,\n    \"away_won\" : 13,\n    \"away_lost\" : 28,\n    \"conference_won\"
+        : 26,\n    \"conference_lost\" : 26,\n    \"last_five\" : \"3-2\",\n    \"last_ten\"
+        : \"7-3\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"NW\",\n    \"points_scored_per_game\"
+        : \"98.0\",\n    \"points_allowed_per_game\" : \"98.1\",\n    \"win_percentage\"
+        : \".524\",\n    \"point_differential\" : -7,\n    \"point_differential_per_game\"
+        : \"-0.1\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 1,\n
+        \   \"games_played\" : 82\n  }, {\n    \"rank\" : 10,\n    \"won\" : 41,\n
+        \   \"lost\" : 41,\n    \"streak\" : \"W1\",\n    \"ordinal_rank\" : \"10th\",\n
+        \   \"first_name\" : \"Dallas\",\n    \"last_name\" : \"Mavericks\",\n    \"games_back\"
+        : 19.0,\n    \"points_for\" : 8293,\n    \"points_against\" : 8342,\n    \"home_won\"
+        : 24,\n    \"home_lost\" : 17,\n    \"away_won\" : 17,\n    \"away_lost\"
+        : 24,\n    \"conference_won\" : 24,\n    \"conference_lost\" : 28,\n    \"last_five\"
+        : \"3-2\",\n    \"last_ten\" : \"6-4\",\n    \"conference\" : \"WEST\",\n
+        \   \"division\" : \"SW\",\n    \"points_scored_per_game\" : \"101.1\",\n
+        \   \"points_allowed_per_game\" : \"101.7\",\n    \"win_percentage\" : \".500\",\n
+        \   \"point_differential\" : -49,\n    \"point_differential_per_game\" : \"-0.6\",\n
+        \   \"streak_type\" : \"win\",\n    \"streak_total\" : 1,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 11,\n    \"won\" : 33,\n    \"lost\" : 49,\n
+        \   \"streak\" : \"L13\",\n    \"ordinal_rank\" : \"11th\",\n    \"first_name\"
+        : \"Portland\",\n    \"last_name\" : \"Trail Blazers\",\n    \"games_back\"
+        : 27.0,\n    \"points_for\" : 7995,\n    \"points_against\" : 8255,\n    \"home_won\"
+        : 22,\n    \"home_lost\" : 19,\n    \"away_won\" : 11,\n    \"away_lost\"
+        : 30,\n    \"conference_won\" : 18,\n    \"conference_lost\" : 34,\n    \"last_five\"
+        : \"0-5\",\n    \"last_ten\" : \"0-10\",\n    \"conference\" : \"WEST\",\n
+        \   \"division\" : \"NW\",\n    \"points_scored_per_game\" : \"97.5\",\n    \"points_allowed_per_game\"
+        : \"100.7\",\n    \"win_percentage\" : \".402\",\n    \"point_differential\"
+        : -260,\n    \"point_differential_per_game\" : \"-3.2\",\n    \"streak_type\"
+        : \"loss\",\n    \"streak_total\" : 13,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 12,\n    \"won\" : 31,\n    \"lost\" : 51,\n    \"streak\"
+        : \"W1\",\n    \"ordinal_rank\" : \"12th\",\n    \"first_name\" : \"Minnesota\",\n
+        \   \"last_name\" : \"Timberwolves\",\n    \"games_back\" : 29.0,\n    \"points_for\"
+        : 7851,\n    \"points_against\" : 8045,\n    \"home_won\" : 20,\n    \"home_lost\"
+        : 21,\n    \"away_won\" : 11,\n    \"away_lost\" : 30,\n    \"conference_won\"
+        : 17,\n    \"conference_lost\" : 35,\n    \"last_five\" : \"2-3\",\n    \"last_ten\"
+        : \"5-5\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"NW\",\n    \"points_scored_per_game\"
+        : \"95.7\",\n    \"points_allowed_per_game\" : \"98.1\",\n    \"win_percentage\"
+        : \".378\",\n    \"point_differential\" : -194,\n    \"point_differential_per_game\"
+        : \"-2.4\",\n    \"streak_type\" : \"win\",\n    \"streak_total\" : 1,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 13,\n    \"won\" : 28,\n    \"lost\" : 54,\n
+        \   \"streak\" : \"L4\",\n    \"ordinal_rank\" : \"13th\",\n    \"first_name\"
+        : \"Sacramento\",\n    \"last_name\" : \"Kings\",\n    \"games_back\" : 32.0,\n
+        \   \"points_for\" : 8219,\n    \"points_against\" : 8619,\n    \"home_won\"
+        : 20,\n    \"home_lost\" : 21,\n    \"away_won\" : 8,\n    \"away_lost\" :
+        33,\n    \"conference_won\" : 14,\n    \"conference_lost\" : 38,\n    \"last_five\"
+        : \"1-4\",\n    \"last_ten\" : \"2-8\",\n    \"conference\" : \"WEST\",\n
+        \   \"division\" : \"PAC\",\n    \"points_scored_per_game\" : \"100.2\",\n
+        \   \"points_allowed_per_game\" : \"105.1\",\n    \"win_percentage\" : \".341\",\n
+        \   \"point_differential\" : -400,\n    \"point_differential_per_game\" :
+        \"-4.9\",\n    \"streak_type\" : \"loss\",\n    \"streak_total\" : 4,\n    \"games_played\"
+        : 82\n  }, {\n    \"rank\" : 14,\n    \"won\" : 27,\n    \"lost\" : 55,\n
+        \   \"streak\" : \"L5\",\n    \"ordinal_rank\" : \"14th\",\n    \"first_name\"
+        : \"New Orleans\",\n    \"last_name\" : \"Hornets\",\n    \"games_back\" :
+        33.0,\n    \"points_for\" : 7714,\n    \"points_against\" : 8031,\n    \"home_won\"
+        : 16,\n    \"home_lost\" : 25,\n    \"away_won\" : 11,\n    \"away_lost\"
+        : 30,\n    \"conference_won\" : 15,\n    \"conference_lost\" : 37,\n    \"last_five\"
+        : \"0-5\",\n    \"last_ten\" : \"2-8\",\n    \"conference\" : \"WEST\",\n
+        \   \"division\" : \"SW\",\n    \"points_scored_per_game\" : \"94.1\",\n    \"points_allowed_per_game\"
+        : \"97.9\",\n    \"win_percentage\" : \".329\",\n    \"point_differential\"
+        : -317,\n    \"point_differential_per_game\" : \"-3.9\",\n    \"streak_type\"
+        : \"loss\",\n    \"streak_total\" : 5,\n    \"games_played\" : 82\n  }, {\n
+        \   \"rank\" : 15,\n    \"won\" : 25,\n    \"lost\" : 57,\n    \"streak\"
+        : \"L1\",\n    \"ordinal_rank\" : \"15th\",\n    \"first_name\" : \"Phoenix\",\n
+        \   \"last_name\" : \"Suns\",\n    \"games_back\" : 35.0,\n    \"points_for\"
+        : 7805,\n    \"points_against\" : 8335,\n    \"home_won\" : 17,\n    \"home_lost\"
+        : 24,\n    \"away_won\" : 8,\n    \"away_lost\" : 33,\n    \"conference_won\"
+        : 17,\n    \"conference_lost\" : 35,\n    \"last_five\" : \"2-3\",\n    \"last_ten\"
+        : \"2-8\",\n    \"conference\" : \"WEST\",\n    \"division\" : \"PAC\",\n
+        \   \"points_scored_per_game\" : \"95.2\",\n    \"points_allowed_per_game\"
+        : \"101.6\",\n    \"win_percentage\" : \".305\",\n    \"point_differential\"
+        : -530,\n    \"point_differential_per_game\" : \"-6.5\",\n    \"streak_type\"
+        : \"loss\",\n    \"streak_total\" : 1,\n    \"games_played\" : 82\n  } ]\n}"
+    http_version: 
+  recorded_at: Sat, 10 Aug 2013 22:42:07 GMT
+recorded_with: VCR 2.5.0
