@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Specify your gem's dependencies in Nbapi.gemspec
-gem 'httparty'
+
 
 group :test do 
 	gem 'webmock'
