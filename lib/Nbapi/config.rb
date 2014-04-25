@@ -1,7 +1,7 @@
 module Nbapi
 	class Config
 		attr_accessor :access_token, :uri_events, :uri_boxscore, :uri_leaders, :uri_team_results, :response_format, :uri_teams,
-									:uri_standings
+									:uri_standings, :user_agent
 
 		def initialize
 			set_defaults
@@ -20,6 +20,7 @@ module Nbapi
 		def set_defaults
 			@access_token 							||= "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx"
 			@response_format 						||= "json"
+      @user_agent                 ||= "my_email@host.com"
 		end
 	end
 end
