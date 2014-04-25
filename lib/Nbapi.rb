@@ -10,8 +10,6 @@ module Nbapi
 
   def self.configuration
   	@configuration			||= Nbapi::Config.new
-  	@configuration.set_request_uris
-
   	return @configuration
   end
 
